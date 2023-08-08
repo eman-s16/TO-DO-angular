@@ -1,0 +1,40 @@
+<div class=" h-100 my-container ">
+  <div class="mx-5">
+    <!-- time now use component -->
+    <app-clock></app-clock>
+    <!-- img logo -->
+    <img   class="up-logo" src="./assets/img/up-logo.png"  alt="">
+   
+     <!-- custom directive color => appColor -->
+    <h4 class="my-2">Hey! Good Morning ,this our <span appColor>{{name.charAt(0).toUpperCase() + name.slice(1)}}</span>  homepage </h4>
+    <!-- ngSwitch directive  -->
+    <div class="mb-3" [ngSwitch] = "day">
+
+        <div *ngSwitchCase = '0'><h6>Today is Sunday! You deserve a break</h6></div>
+        
+        <div *ngSwitchCase = '1'><h6>Today is Monday, Hope you have productive Week</h6></div>
+        
+        <div *ngSwitchCase = '2'><h6>Today is Tuesday, Smash your Goals</h6></div>
+        
+        <div *ngSwitchCase = '3'><h6>Today is Wednesday, You're already half way through</h6></div>
+        
+        <div *ngSwitchCase = '4'><h6>Today is Thursday, It's like Friday Lite</h6></div>
+        
+        <div *ngSwitchCase = '5'><h6>Today is Friday, TGIF!!!</h6></div>
+        
+        <div *ngSwitchCase = '6'><h6>Today is Saturday, Let's Party!! :) </h6></div>
+        
+        <div *ngSwitchDefault>Uh oh! Somethings wrong</div>
+        
+        </div>
+        <video  height="360px" class="pb-5" controls>
+          <source src="./assets/video/Time-video.mp4" type="video/mp4">
+         
+          Your browser does not support the video tag.
+        </video>
+</div>
+
+
+
+
+</div>

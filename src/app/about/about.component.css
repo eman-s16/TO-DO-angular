@@ -1,0 +1,20 @@
+.about-container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 22px;
+    line-height: 2;
+    padding: 10px 60px;
+}

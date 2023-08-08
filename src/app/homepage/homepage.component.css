@@ -1,0 +1,14 @@
+
+.my-container {
+
+    background-image: url(/assets/img/bg-home.png) ;
+  
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+
+}
+
+img{
+    width: 150px;
+}

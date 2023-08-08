@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@700&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+padding:0;
+    
+}
+body-container {
+  
+    width: 100vw;
+    height: 100vh;
+}
+body {
+
+    background-color: #F6F6F6;
+    font-family: 'Amiri', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Signika Negative', sans-serif;
+}
+
